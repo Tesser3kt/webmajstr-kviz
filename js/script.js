@@ -23,11 +23,11 @@ continue_btn.onclick = ()=>{
     quiz_box.classList.add("activeQuiz");
     showQuetions(0);
     queCounter(1);
-    startTimer(30);
+    startTimer(15);
     startTimerLine(0);
 }
 
-let timeValue = 30;
+let timeValue = 15;
 let que_count = 0;
 let que_numb = 1;
 let userScore = 0;
@@ -41,7 +41,7 @@ const quit_quiz = result_box.querySelector(".buttons .quit");
 restart_quiz.onclick = ()=>{
     quiz_box.classList.add("activeQuiz");
     result_box.classList.remove("activeResult");
-    timeValue = 30;
+    timeValue = 15;
     que_count = 0;
     que_numb = 1;
     userScore = 0;
@@ -57,7 +57,7 @@ restart_quiz.onclick = ()=>{
 }
 
 quit_quiz.onclick = ()=>{
-    window.location.reload();
+    window.location.href = "https://webmajstr.golotvinov.com";
 }
 
 const next_btn = document.querySelector("footer .next_btn");
@@ -195,6 +195,6 @@ function startTimerLine(time){
 }
 
 function queCounter(index){
-    let totalQueCounTag = '<span><p>'+ index +'</p> of <p>'+ questions.length +'</p> Otáž</span>';
-    bottom_ques_counter.innerHTML = totalQueCounTag;  //adding new span tag inside bottom_ques_counter
+    let totalQueCounTag = '<span><p>'+ index +'</p> z <p>'+ questions.length +'</p> otázek</span>';
+    bottom_ques_counter.innerHTML = totalQueCounTag;
 }
