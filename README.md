@@ -1,2 +1,2 @@
-# webmajstr-kviz
-Webmajstr Kvíz
+# Webmajstr kvíz
+Kvíz ke stránce WebMajstr.
