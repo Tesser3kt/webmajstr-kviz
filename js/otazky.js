@@ -13,46 +13,46 @@ let questions = [
     },
     {
         numb: 2,
-        question: "Co znamená zkratka CSS?",
-        answer: "Cascading Style Sheet",
+        question: "Koho považujeme za tvz. „otce Internetu?",
+        answer: "Tim Berners Lee",
         options: [
-            "Common Style Sheet",
-            "Colorful Style Sheet",
-            "Computer Style Sheet",
-            "Cascading Style Sheet"
+            "PhDr. Josef Procházka, Ph.D.",
+            "Aleks D. Golotvinov",
+            "PhDr. Tomáš Jeřábek, Ph.D.",
+            "Tim Berners Lee"
         ]
     },
     {
         numb: 3,
-        question: "What does PHP stand for?",
-        answer: "Hypertext Preprocessor",
+        question: "Jakým příkazem v CSS obarvíme text červeně?",
+        answer: "p {color:red; }",
         options: [
-            "Hypertext Preprocessor",
-            "Hypertext Programming",
-            "Hypertext Preprogramming",
-            "Hometext Preprocessor"
+            "p {color:red; }",
+            "text: color:red;",
+            "make.text='red'",
+            "css > text > color:red"
         ]
     },
     {
         numb: 4,
-        question: "What does SQL stand for?",
-        answer: "Structured Query Language",
+        question: "Co NENÍ renderovací engine prohlížeče?",
+        answer: "Chromium",
         options: [
-            "Stylish Question Language",
-            "Stylesheet Query Language",
-            "Statement Question Language",
-            "Structured Query Language"
+            "Chromium",
+            "Gecko",
+            "Webkit",
+            "Blink"
         ]
     },
     {
         numb: 5,
-        question: "What does XML stand for?",
-        answer: "eXtensible Markup Language",
+        question: "Který z následujicích atributů je POVINNÝ v tagu img?",
+        answer: "src",
         options: [
-            "eXtensible Markup Language",
-            "eXecutable Multiple Language",
-            "eXTra Multi-Program Language",
-            "eXamine Multiple Language"
+            "href",
+            "alt",
+            "src",
+            "class"
         ]
     },
     // you can uncomment the below codes and make duplicate as more as you want to add question

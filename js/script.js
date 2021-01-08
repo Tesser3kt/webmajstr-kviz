@@ -57,7 +57,7 @@ restart_quiz.onclick = ()=>{
 }
 
 quit_quiz.onclick = ()=>{
-    window.location.href = "https://webmajstr.golotvinov.com";
+    window.close();
 }
 
 const next_btn = document.querySelector("footer .next_btn");
@@ -141,15 +141,15 @@ function showResult(){
     result_box.classList.add("activeResult");
     const scoreText = result_box.querySelector(".score_text");
     if (userScore > 3){
-        let scoreTag = '<span>and congrats! 🎉, Získali jste <p>'+ userScore +'</p> z <p>'+ questions.length +'</p></span>';
+        let scoreTag = '<span>Výborný výsledek! Vaše skóre: <p>'+ userScore +'</p> z <p>'+ questions.length +'</p></span>';
         scoreText.innerHTML = scoreTag;
     }
     else if(userScore > 1){
-        let scoreTag = '<span>and nice 😎, Získali jste <p>'+ userScore +'</p> z <p>'+ questions.length +'</p></span>';
+        let scoreTag = '<span>Ještě to není ono. Vaše skóre: <p>'+ userScore +'</p> z <p>'+ questions.length +'</p></span>';
         scoreText.innerHTML = scoreTag;
     }
     else{
-        let scoreTag = '<span>and sorry 😐, Získali jste <p>'+ userScore +'</p> z <p>'+ questions.length +'</p></span>';
+        let scoreTag = '<span>Bohužel se to nepovedlo. Vaše skóre: <p>'+ userScore +'</p> z <p>'+ questions.length +'</p></span>';
         scoreText.innerHTML = scoreTag;
     }
 }

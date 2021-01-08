@@ -53,6 +53,7 @@ body {
     z-index: 5;
     pointer-events: auto;
     transform: translate(-50%, -50%) scale(1);
+    width: 550px;
 }
 
 .start_btn button{
@@ -347,7 +348,6 @@ section .option_list .option .icon{
 
 .result_box .buttons button{
     margin: 0 10px;
-    height: 45px;
     padding: 0 20px;
     font-size: 18px;
     font-weight: 500;
@@ -360,6 +360,7 @@ section .option_list .option .icon{
 .buttons button.restart{
     color: #fff;
     background: var(--main-green);
+    padding: 10px;
 }
 
 .buttons button.restart:hover{
@@ -369,6 +370,7 @@ section .option_list .option .icon{
 .buttons button.quit{
     color: var(--secondary-blue);
     background: #fff;
+    padding: 10px;
 }
 
 .buttons button.quit:hover{
