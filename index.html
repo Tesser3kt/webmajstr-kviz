@@ -1,81 +1,87 @@
 <!DOCTYPE html>
 <html lang="cs">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Webmjastr Kvíz - Kdo chce být vývojářem?</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
-<hr class="headerHr">
+    <hr class="headerHr">
 
-<div class="start_btn">
-    <button>Kdo chce být vývojářem</button>
-</div>
-
-<div class="info_box">
-    <div class="info-title"><span>Pár informací:</span></div>
-    <div class="info-list">
-        <div class="info">1. Máte <span>15 vteřin</span> na zodpovězení každé otázky.</div>
-        <div class="info">2. Zvolenou odpověď již nemůžete opravit.</div>
-        <div class="info">3. Na konci získáte ohodnocení jak na to jste.</div>
+    <div class="start_btn">
+        <button>Kdo chce být vývojářem</button>
     </div>
-    <div class="buttons">
-        <button class="quit">Ukončit kvíz</button>
-        <button class="restart">Zahájit kvíz!</button>
+
+    <div class="info_box">
+        <div class="info-title"><span>Pár informací:</span></div>
+        <div class="info-list">
+            <div class="info">1. Máte <span>15 vteřin</span> na zodpovězení každé otázky.</div>
+            <div class="info">2. Zvolenou odpověď již nemůžete opravit.</div>
+            <div class="info">3. Na konci získáte ohodnocení jak na to jste.</div>
+        </div>
+        <div class="buttons">
+            <button class="quit">Ukončit kvíz</button>
+            <button class="restart">Zahájit kvíz!</button>
+        </div>
     </div>
-</div>
 
-<div class="quiz_box">
-    <header>
-        <div class="title">Kdo chcer být vývojářem</div>
-        <div class="timer">
-            <div class="time_left_txt">Zbývající čas</div>
-            <div class="timer_sec">15</div>
+    <div class="quiz_box">
+        <header>
+            <div class="title">Kdo chcer být vývojářem</div>
+            <div class="timer">
+                <div class="time_left_txt">Zbývající čas</div>
+                <div class="timer_sec">15</div>
+            </div>
+            <div class="time_line"></div>
+        </header>
+        <section>
+            <div class="que_text">
+
+            </div>
+            <div class="option_list">
+
+            </div>
+        </section>
+
+        <footer class="quiz_footer">
+            <div class="total_que">
+
+            </div>
+            <button class="next_btn">Další</button>
+        </footer>
+    </div>
+
+    <div class="result_box">
+        <div class="icon">
+            <i class="fas fa-crown"></i>
         </div>
-        <div class="time_line"></div>
-    </header>
-    <section>
-        <div class="que_text">
+        <div class="complete_text">Dokončili jste kvíz!</div>
+        <div class="score_text">
 
         </div>
-        <div class="option_list">
-
+        <div class="buttons">
+            <button class="restart">Zkusit ještě jednou</button>
+            <button class="quit">Konec</button>
         </div>
-    </section>
+    </div>
 
-    <footer class="quiz_footer">
-        <div class="total_que">
-
-        </div>
-        <button class="next_btn">Další</button>
+    <footer>
+        <p>&copy; Webmajstr <span id="currentYear"></span> | Vytvořil A. D. Golotvinov</p>
+        <img src="http://webmajstr.golotvinov.com/img/KITTVlogoBW.svg" class="kittvLogo" alt="logo KITTV">
     </footer>
-</div>
-
-<div class="result_box">
-    <div class="icon">
-        <i class="fas fa-crown"></i>
-    </div>
-    <div class="complete_text">Dokončili jste kvíz!</div>
-    <div class="score_text">
-
-    </div>
-    <div class="buttons">
-        <button class="restart">Zkusit ještě jednou</button>
-        <button class="quit">Konec</button>
-    </div>
-</div>
-
-<footer><p>&copy; Webmajstr <span id="currentYear"></span> | Vytvořil A. D. Golotvinov</p>
-    <img src="http://webmajstr.golotvinov.com/img/KITTVlogoBW.svg" class="kittvLogo" alt="logo KITTV">
-</footer>
 
 
-<script src="js/otazky.js"></script>
-<script src="js/script.js"></script>
+    <script src="js/otazky.js"></script>
+    <script src="js/script.js"></script>
 
 </body>
+
 </html>
+
 </html>
