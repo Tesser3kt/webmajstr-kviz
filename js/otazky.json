@@ -1,9 +1,9 @@
-let questions = [
+[
     {
-        numb: 1,
-        question: "Co znamená zkratka HTML?",
-        answer: "Hypertext Markup Language",
-        options: [
+        "numb": 1,
+        "question": "Co znamená zkratka HTML?",
+        "answer": "Hypertext Markup Language",
+        "options": [
             "Hypertext Programming Language",
             "Hypertext Markup Language",
             "Hypertext Multipurpose Language",
@@ -11,10 +11,10 @@ let questions = [
         ]
     },
     {
-        numb: 2,
-        question: "Koho považujeme za tvz. „otce Internetu?",
-        answer: "Tim Berners Lee",
-        options: [
+        "numb": 2,
+        "question": "Koho považujeme za tvz. „otce Internetu?",
+        "answer": "Tim Berners Lee",
+        "options": [
             "PhDr. Josef Procházka, Ph.D.",
             "Aleks D. Golotvinov",
             "PhDr. Tomáš Jeřábek, Ph.D.",
@@ -22,10 +22,10 @@ let questions = [
         ]
     },
     {
-        numb: 3,
-        question: "Jakým příkazem v CSS obarvíme text červeně?",
-        answer: "p {color:red; }",
-        options: [
+        "numb": 3,
+        "question": "Jakým příkazem v CSS obarvíme text červeně?",
+        "answer": "p {color:red; }",
+        "options": [
             "p {color:red; }",
             "text: color:red;",
             "make.text='red'",
@@ -33,10 +33,10 @@ let questions = [
         ]
     },
     {
-        numb: 4,
-        question: "Co NENÍ renderovací engine prohlížeče?",
-        answer: "Chromium",
-        options: [
+        "numb": 4,
+        "question": "Co NENÍ renderovací engine prohlížeče?",
+        "answer": "Chromium",
+        "options": [
             "Chromium",
             "Gecko",
             "Webkit",
@@ -44,14 +44,14 @@ let questions = [
         ]
     },
     {
-        numb: 5,
-        question: "Který z následujicích atributů je POVINNÝ v tagu img?",
-        answer: "src",
-        options: [
+        "numb": 5,
+        "question": "Který z následujicích atributů je POVINNÝ v tagu img?",
+        "answer": "src",
+        "options": [
             "href",
             "alt",
             "src",
             "class"
         ]
-    },
-];
+    }
+]
